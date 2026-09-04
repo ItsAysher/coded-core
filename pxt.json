@@ -1,17 +1,20 @@
 {
     "name": "Coded Core",
-    "description": "",
+    "description": "Modular biped Core garage with interchangeable frame parts and layered paint.",
     "dependencies": {
         "device": "*"
     },
     "files": [
+        "images.g.jres",
+        "images.g.ts",
+        "core_model.ts",
+        "core_assets.ts",
+        "core_renderer.ts",
+        "garage_ui.ts",
         "main.blocks",
         "main.ts",
         "README.md",
         "assets.json"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "targetVersions": {
         "target": "4.0.14",
